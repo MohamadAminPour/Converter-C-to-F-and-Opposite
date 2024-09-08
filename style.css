@@ -1,0 +1,42 @@
+body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97.8vh;
+    background: linear-gradient(105deg, rgb(124, 227, 255) 15%, rgb(69, 128, 255) 60%, blue 130%);
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#input input {
+    padding: 10px 60px;
+    text-align: center;
+}
+
+#btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#btn button {
+    margin-right: 10px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+#result{
+    text-align: center;
+}
